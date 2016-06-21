@@ -146,7 +146,7 @@ Using simple linear regression function to estimate the regression parameters fr
 bedrooms_intercept, bedrooms_slope = simple_linear_regression(train_data['bedrooms'], train_data['price'])
 ```
 
-# Test your Linear Regression Algorithm
+# Test Linear Regression Algorithm
 
 Now we have two models for predicting the price of a house. Calculate the RSS on the TEST data. Compute the RSS from predicting prices using bedrooms and from predicting prices using squarefeet.
 
